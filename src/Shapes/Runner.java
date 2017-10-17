@@ -1,5 +1,6 @@
 package Shapes;
 
+
 public class Runner {
 
     public static void main (String[] args)
@@ -10,9 +11,18 @@ public class Runner {
 
         Shape [] shapeArr = new Shape[10];
 
-        Shape.sumArea(shapeArr);
+        for (int i = 0; i < shapeArr.length; i++)
+        {
+            shapeArr[i] = ShapeUtilities.randomShape();
+        }
 
-        System.out.print("Total Area = " + (square1.calculateArea() + circle1.calculateArea() + rectangle1.calculateArea()));
+        for (Shape shape : shapeArr)
+        {
+            System.out.println(shape);
+        }
+
+        System.out.println("Total Area: " + ShapeUtilities.sumArea(shapeArr));
+
     }
 
 

@@ -21,5 +21,11 @@ public class Rectangle implements Shape{
     public double calculatePerimeter() {
         return length*2 + width*2;
     }
+
+    @Override
+    public String toString()
+    {
+        return "Rectangle Width: " + width + " Length: " + length + " Area: " + this.calculateArea() + " Perimeter: " + this.calculatePerimeter();
+    }
 }
 

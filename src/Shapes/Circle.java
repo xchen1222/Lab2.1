@@ -20,4 +20,10 @@ public class Circle implements Shape{
     {
         return radius*2*pi;
     }
+
+    @Override
+    public String toString()
+    {
+        return "Circle Radius: " + radius + " Area: " + this.calculateArea() + " Perimeter: " + this.calculatePerimeter();
+    }
 }
