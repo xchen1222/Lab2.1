@@ -14,17 +14,19 @@ public class Rectangle implements Shape {
 		this.width = width;
 	}
 
-	@Override
+
 	public double calculateArea() {
 		// To be written by student
+		return 0.0;
 	}
 
-	@Override
+
 	public double calculatePerimeter() {
 		// To be written by student
+		return 0.0;
 	}
 
-	@Override
+
 	public String toString() {
 		return "Rectangle Width: " + width + " Length: " + length + " Area: " + this.calculateArea() + " Perimeter: "
 				+ this.calculatePerimeter();

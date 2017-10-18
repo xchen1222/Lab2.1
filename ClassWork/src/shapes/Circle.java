@@ -22,15 +22,18 @@ public class Circle implements Shape {
 	@Override
 	public double calculateArea() {
 		// to be implemented by student
+		return 0.0;
 	}
 
 	@Override
 	public double calculatePerimeter() {
 		// to be implemented by student
+		return 0.9;
 	}
 
 	@Override
 	public String toString() {
 		// to be implemented by student
+		return "";
 	}
 }
