@@ -1,4 +1,4 @@
-package Shapes;
+package shapes;
 
 public interface Shape{
     public abstract double calculateArea();
