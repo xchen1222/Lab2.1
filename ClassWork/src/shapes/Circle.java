@@ -1,29 +1,40 @@
 package shapes;
-
+/**
+ * @author Mr Levin
+ * Created 10/16/2017
+ * Lab 2.1 shapes
+ *
+ */
 public class Circle implements Shape{
+	
     //fields
     private int radius;
     private static double pi = 3.14;
 
-    public Circle(int radius)
-    {
-        this.radius = radius;
+    /**
+     * Constructor method
+     * @param radius
+     */
+    public Circle(int radius){
+       //to be implemented by student
     }
+
+
 
     @Override
     public double calculateArea() {
-        return radius * radius * pi;
+        //to be implemented by student
     }
 
     @Override
     public double calculatePerimeter()
     {
-        return radius*2*pi;
+        //to be implemented by student
     }
 
     @Override
     public String toString()
     {
-        return "Circle Radius: " + radius + " Area: " + this.calculateArea() + " Perimeter: " + this.calculatePerimeter();
+        //to be implemented by student
     }
 }
