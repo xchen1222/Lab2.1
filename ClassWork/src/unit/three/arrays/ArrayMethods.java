@@ -1,4 +1,4 @@
-package lab_3_3_arrays;
+package unit.three.arrays;
 
 public class ArrayMethods {
 	
