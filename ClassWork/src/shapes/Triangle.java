@@ -2,9 +2,17 @@ package shapes;
 
 public class Triangle implements Shape {
 	
+	// fields
 	private int side; 
 	private int height;
 
+	/**
+	 * Constructor method
+	 * 
+	 * @param side 
+	 * @param height 
+	 * Triangle is equilateral 
+	 */
 	public Triangle(int side , int height ) {
 	this.side = side ; 
 	this.height = height ; 
@@ -13,13 +21,11 @@ public class Triangle implements Shape {
 
 
 	public double calculateArea() {
-		// To be written by student
 		return .5 * (side * height) ; 
 	}
 
 
 	public double calculatePerimeter() {
-		// To be written by student
 		return side * 3;  
 	}
 

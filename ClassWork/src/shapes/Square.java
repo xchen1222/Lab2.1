@@ -1,9 +1,15 @@
 package shapes;
 
 public class Square extends Rectangle {
-
+	
+	// fields
 	int side;
 
+	/**
+	 * Constructor method
+	 * 
+	 * @param side
+	 */
 	public Square(int side) {
 		super(side, side);
 		this.side = side;
@@ -16,7 +22,6 @@ public class Square extends Rectangle {
 	}
 	@Override
 	public String toString() {
-		// To be written by student
 		return "Square Side: " + side + " Area: " + calculateArea() + " Perimeter: " + calculatePerimeter() ;
 	}
 

@@ -5,10 +5,17 @@ package shapes;
  *
  */
 public class Rectangle implements Shape {
-
+	
+	// fields
 	private int length;
 	private int width;
 
+	/**
+	 * Constructor method
+	 * 
+	 * @param length 
+	 * @param width
+	 */
 	public Rectangle(int length, int width) {
 		this.length = length;
 		this.width = width;
@@ -16,14 +23,11 @@ public class Rectangle implements Shape {
 
 
 	public double calculateArea() {
-		// To be written by student
 		return (this.length) * (this.width);
 	}
 
 
-	public double calculatePerimeter() {
-		// To be written by student
-		
+	public double calculatePerimeter() {		
 		return ((this.length) + (this.width))*2;
 	}
 
